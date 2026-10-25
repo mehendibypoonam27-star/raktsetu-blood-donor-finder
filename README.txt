@@ -1,19 +1,23 @@
 RaktSetu - Blood Donor Finder (Flask + SQLite + Bootstrap 5)
 
-Run karne ke steps (Windows / Mac / Linux):
-1. Python 3.9+ install hona chahiye.
-2. Is folder me terminal kholein.
-3. (optional) python -m venv venv  ->  venv\Scripts\activate   (Mac/Linux: source venv/bin/activate)
+Steps to Run (Windows / Mac / Linux):
+
+1. Python 3.9+ must be installed.
+2. Open the terminal in this folder.
+3. (Optional) python -m venv venv → venv\Scripts\activate (Mac/Linux: source venv/bin/activate)
 4. pip install -r requirements.txt
 5. python app.py
-6. Browser me kholein: http://127.0.0.1:5000
+6. Open in your browser: http://127.0.0.1:5000
 
-Database (raktsetu.db) pehli run par apne aap ban jaata hai, sample data ke saath.
-Reset karne ke liye raktsetu.db file delete karke dobara python app.py chalayein.
-Bootstrap CDN se load hota hai, isliye internet chahiye.
+The database (raktsetu.db) is automatically created on the first run with sample data.
+
+To reset it, delete the raktsetu.db file and run python app.py again.
+
+Bootstrap loads from a CDN, so an internet connection is required.
 
 Structure:
-app.py            - Flask routes + SQLite
-templates/        - HTML (Jinja2) pages
-static/style.css  - custom dark theme
-static/app.js     - contact modal, form validation
+
+app.py — Flask routes + SQLite  
+templates/ — HTML (Jinja2) pages  
+static/style.css — Custom dark theme  
+static/app.js — Contact modal, form validation
